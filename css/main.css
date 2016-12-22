@@ -235,3 +235,71 @@ body.fixed-nav #guide-header {
   position: relative;
   top: 1px;
 }
+
+
+@media only screen and (max-width: 1100px) {
+  #guide-header {
+    height: calc(100vh - 101px);
+  }
+
+  body.fixed-nav #guide-header {
+    margin-bottom: 101px;
+  }
+
+  .logo {
+    width: 40px;
+    height: 40px;
+    margin-left: -15px;
+  }
+
+  #guide-header .guide-title h1 {
+    font-size: 35px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    margin-top: 40px;
+  }
+
+  #guide-header .guide-title h1 em {
+    font-size: 28px;
+    -webkit-text-stroke: 1px #1DE9B6;
+    letter-spacing: 1px;
+  }
+
+  #guide-header .guide-title h2 {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  #guide-header .scroll-arrow {
+    font-size: 40px;
+    margin-left: -12px;
+    bottom: 10px;
+  }
+
+  nav {
+    padding: 20px 0 15px;
+  }
+
+  nav .separator {
+    display: none;
+  }
+
+  nav a {
+    font-size: 17px;
+    padding: 7px 15px;
+    letter-spacing: 1px;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .picks-category h2 {
+    font-size: 40px;
+    padding: 0 15px;
+  }
+
+  .picks-category .picks .pick {
+    width: 100%;
+  }
+}
